@@ -91,6 +91,6 @@ echo  "        SHOW JENKINS ADMIN  PASSWORD         "
 echo  "---------------------------------------------"
 echo " "
 sleep 10
-echo "The Admin password is :" $(sudo cat /var/lib/jenkins/secrets/initialAdmin)
+echo "The Admin password is :" $(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)
 
 
